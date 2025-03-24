@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Mail, ExternalLink } from 'lucide-react';
+import { Mail, ExternalLink } from 'lucide-react';
 import OceanBackground from '@/components/OceanBackground';
 import PageTransition from '@/components/PageTransition';
 import { Button } from '@/components/ui/button';
@@ -7,10 +7,10 @@ import { cn } from '@/lib/utils';
 
 const About = () => {
   const teamMembers = [
-    { name: "Srijith", role: "Team Leader" },
-    { name: "Abhiram", role: "Member" },
-    { name: "Sudeep", role: "Member" },
-    { name: "Akshaya", role: "Member" }
+    { name: "Srijith Chetla", role: "Team Leader" },
+    { name: "Avisa Abhiram", role: "Member" },
+    { name: "D. Sudeep Goud", role: "Member" },
+    { name: "P. Akshaya", role: "Member" }
   ];
 
   return (
@@ -49,7 +49,7 @@ const About = () => {
                 <div className="pt-4">
                   <h3 className="text-xl font-medium mb-3">Technology</h3>
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-                    {["React", "TailwindCSS", "YOLOv8", "Python Flask"].map((tech, index) => (
+                    {["React", "TailwindCSS", "YOLOv8", "Python Flask","Vite","TensorFlow","Leaflet.js","TypeScript"].map((tech, index) => (
                       <div 
                         key={index} 
                         className="glass-button px-4 py-2 rounded-lg text-center text-sm"
@@ -90,13 +90,10 @@ const About = () => {
               <h2 className="text-lg font-medium mb-4">Get in Touch</h2>
               <div className="flex justify-center space-x-4">
                 <Button variant="outline" size="sm" className="glass-button">
-                  <Github className="mr-2 h-4 w-4" /> GitHub
+                  <Mail className="mr-2 h-4 w-4" /><a href=''>Contact</a> 
                 </Button>
                 <Button variant="outline" size="sm" className="glass-button">
-                  <Mail className="mr-2 h-4 w-4" /> Contact
-                </Button>
-                <Button variant="outline" size="sm" className="glass-button">
-                  <ExternalLink className="mr-2 h-4 w-4" /> Documentation
+                  <ExternalLink className="mr-2 h-4 w-4" /><a href='https://docs.google.com/document/d/189-yqat2ZtRwafDhcMvzw6ZEKa84q_LX72es1O-NiZI/edit?usp=sharing'>Documentation</a> 
                 </Button>
               </div>
             </div>

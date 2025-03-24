@@ -20,7 +20,7 @@ const Results = () => {
   const navigate = useNavigate();
   const { toast } = useToast();
 
-  const MODEL_NAME = "ecobot.pt"; // Your pretrained YOLOv8 model
+  const MODEL_NAME = "ecobot.pt";
 
   useEffect(() => {
     const resultsData = sessionStorage.getItem('detectionResults');
@@ -36,8 +36,7 @@ const Results = () => {
       const timer = setTimeout(() => {
         setResultImage(results.resultImage);
         
-        // Generate random ocean coordinates instead of using image metadata
-        // but we'll pretend these came from the image
+    
         const coordinates = generateRandomOceanCoordinates();
         setGpsCoordinates(coordinates);
         

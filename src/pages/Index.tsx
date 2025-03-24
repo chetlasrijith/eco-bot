@@ -139,7 +139,7 @@ const Index = () => {
                 },
                 {
                   title: "Locate",
-                  description: "GPS coordinates are extracted from image metadata when available."
+                  description: "GPS coordinates are extracted from image metadata when available. Then pointed on Map based on Density."
                 }
               ].map((item, index) => (
                 <div 

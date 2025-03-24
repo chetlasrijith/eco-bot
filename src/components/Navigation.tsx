@@ -38,10 +38,7 @@ const Navigation = () => {
     )}>
       <div className="container px-4 mx-auto flex items-center justify-between">
         <Link to="/" className="flex items-center space-x-3">
-          <div className="relative w-10 h-10 glass-card flex items-center justify-center rounded-xl overflow-hidden">
-            <div className="absolute inset-0 bg-primary/20 animate-pulse-slow"></div>
-            <span className="text-xl font-bold text-white">P</span>
-          </div>
+
           <span className="text-xl font-medium text-gradient">EcoBot</span>
         </Link>
         
