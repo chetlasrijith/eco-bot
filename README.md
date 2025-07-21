@@ -17,13 +17,13 @@ Upload underwater images to detect plastic waste using our advanced detection sy
 
 ### 🧪 Detection Results
 View detailed detection results, including confidence scores, plastic level, and global impact.  
-![Detection Results](assets/2.png)
+![Detection Results](assets/3.png)
 
 ---
 
 ### 🗺️ Global Plastic Map
 Visualize plastic detection points around the globe.  
-![Global Map](assets/3.png)
+![Global Map](assets/2.png)
 
 ---
 
